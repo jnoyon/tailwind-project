@@ -7,26 +7,26 @@
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Manrope:wght@200..800&display=swap" rel="stylesheet">
-    <script src="https://cdn.tailwindcss.com"></script>
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css" integrity="sha512-Kc323vGBEqzTmouAECnVceyQqyqdsSiqLQISBL29aUW4U/M7pSPA/gEUZQqv1cwx4OnYxTxve5UMg5GT6L4JJg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
     <style>
         body {
             font-family: "Manrope", sans-serif;
         }
     </style>
+    <script src="https://cdn.tailwindcss.com"></script>
 </head>
 <body>
     <header class="header-area py-10 bg-slate-200">
         <div class="container w-4/5 mx-auto">
             <div class="header-section flex gap-5 justify-between">
-                <div class="logo md:w-2/12">
+                <div class="logo">
                     <a href="#"> <i class="fa-solid fa-arrow-up rotate-45 bg-lime-400 rounded-full px-3 py-2.5 mr-1"></i> <span class="font-extrabold text-2xl"> Rinterio </span> </a>
                 </div>
                 <div class="mobile-menu-bar md:hidden">
                     <a href="#" class="bg-white px-4 py-3 rounded-full border border-solid border-gray-300"> <i class="fa fa-bars"></i> </a>
                 </div>
-                <div class="main-menu hidden md:block md:w-6/12">
-                    <ul class="nav flex justify-evenly">
+                <div class="main-menu hidden md:block text-gray-500">
+                    <ul class="nav flex gap-10 justify-evenly">
                         <li><a href="#" class="font-bold"> Home </a></li>
                         <li><a href="#"> Services </a></li>
                         <li><a href="#"> Portfolio </a></li>
@@ -34,43 +34,42 @@
                         <li><a href="#"> Contact Us </a></li>
                     </ul>
                 </div>
-                <div class="menu-right hidden md:block md:w-4/12">
+                <div class="menu-right hidden md:block">
                     <ul class="nav gap-3 flex">
-                        <li> <a href="#"> <i class="fa-solid fa-magnifying-glass bg-white rounded-full p-2"></i> </a> </li>
-                        <li> <a href="#"> <i class="fa-solid fa-cart-shopping bg-white rounded-full p-2"></i> </a> </li>
+                        <li> <a href="#"> <i class="fa-solid fa-magnifying-glass text-gray-500 bg-white rounded-full p-2 border border-solid border-gray-300"></i> </a> </li>
+                        <li> <a href="#"> <i class="fa-solid fa-cart-shopping text-gray-500 bg-white rounded-full p-2 border border-solid border-gray-300"></i> </a> </li>
                         <li><a href="#" class="bg-lime-400 font-bold px-5 py-3 rounded-full"> Book Consult <i class="fa-solid fa-arrow-up rotate-45 rounded-full px-2 py-1.5 bg-black text-white ml-1"></i> </a></li>
                     </ul>
                 </div>
             </div>
             <div class="hero-section text-center">
                 <img class="mx-auto p-10" src="images/banner.png" alt="Image">
-                <h1 class="text-3xl md:text-6xl font-bold mb-5"> A barn house of this design has <br> a striking appearance </h1>
-                <p class="p-3"> The barn house captivates with its blend of rustic charm and modern sophistication, <br> featuring weathered wood, sleek metal accents, and large windows that flood the space with natural light. </p>
-                 <a href="#" class="bg-lime-300 font-bold rounded-3xl px-5 py-3 block md:inline-block"> View Details <i class="fa-solid fa-arrow-up rotate-45 rounded-full px-2 py-1.5 bg-green-400 ml-1"></i> </a>
+                <h1 class="text-3xl md:text-6xl font-bold mb-5 w-4/5 mx-auto"> Let's make your dream home with our experienced team and make your life happy! </h1>
+                <p class="p-3 text-gray-700"> The barn house captivates with its blend of rustic charm and modern sophistication, <br> featuring weathered wood, sleek metal accents, and large windows that flood the space with natural light. </p>
+                 <a href="#" class="bg-lime-300 font-bold rounded-3xl px-6 py-2.5 block md:inline-block border border solid border-lime-400"> View Details <i class="fa-solid fa-arrow-up rotate-45 rounded-full px-2 py-1.5 bg-green-400 ml-1"></i> </a>
             </div>
         </div>
     </header>
 
     <section class="about-area bg-zinc-200 py-10">
         <div class="container w-4/5 mx-auto gap-10 flex flex-col items-center md:flex-row">
-            <div class="about-left relative text-center md:w-1/2">
+            <div class="about-left relative text-center md:text-left md:w-1/2">
                 <img src="images/Vector.png" alt="line" class="absolute -left-10 hidden md:block">
                 <h1 class="px-8 mb-2 mt-16 p-2 bg-white rounded-3xl inline-block"> <i class="fa-solid fa-arrow-right mr-1"></i> About Us </h1>
                 <h1 class="font-bold text-4xl mb-3"> We design thoughtful, <br> liveable spaces </h1>
-                <p class="mb-4"> The barn house captivates with its blend of rustic charm and 
-                    modern sophistication, featuring weathered wood, sleek metal accents. </p>
-                <div class="about-card text-left mb-6 p-5 rounded-lg flex gap-4 bg-white">
+                <p class="mb-4 text-gray-700"> Before starting your project of your home you should know about us to take a better decision.  We always respect your decision. </p>
+                <div class="about-card text-gray-700 text-left mb-6 p-5 rounded-lg flex gap-4 bg-white">
                     <img src="images/commercial.png" alt="image">
                     <div class="about-text">
                         <h2 class="font-bold text-2xl mb-1"> Commercial </h2>
-                        <p> The barn house captivates with its <br> blend of rustic charm and modern. </p>
+                        <p> We have already bulid <br> 100 Commerical Home Project. </p>
                     </div>
                 </div>
-                <div class="about-card text-left p-5 rounded-lg flex gap-4 bg-white">
+                <div class="about-card text-gray-700  text-left p-5 rounded-lg flex gap-4 bg-white">
                     <img src="images/residential.png" alt="image">
                     <div class="about-text">
                         <h2 class="font-bold text-2xl mb-1"> Residencial </h2>
-                        <p> The barn house captivates with its <br> blend of rustic charm and modern. </p>
+                        <p> Make your life happy and cool <br> with our Residencial System. </p>
                     </div>
                 </div>
             </div>
@@ -84,27 +83,27 @@
         <div class="container w-4/5 mx-auto">
             <h1 class="px-8 mb-2 p-2 bg-white rounded-3xl inline-block"> <i class="fa-solid fa-arrow-right mr-1"></i> How we works </h1>
             <h1 class="font-bold text-5xl py-5"> Our Work Process </h1>
-            <p class="mb-5"> The barn house captivates with its blend of rustic charm and modern sophistication, <br> featuring weathered wood, sleek metal accents. </p>
+            <p class="mb-5 w-4/5 mx-auto text-gray-600"> Our approach is different because our team is one the experienced team in the world. Here are a flow chart to describe our work process. You will impress by showing our work process. </p>
             <div class="work-box-container gap-8 text-left flex flex-col md:flex-row">
                 <div class="wb-item p-8 rounded-2xl bg-rose-300 md:w-1/4">
-                    <img src="images/vision.png" alt="Image" class="mb-1">
+                    <img src="images/concept.png" alt="Image" class="mb-1">
                     <h2 class="font-bold text-xl mb-2"> Concept </h2>
-                    <p> The barn house captivates with its blend of rustic charm and modern. </p>
+                    <p class="text-gray-800"> Before we start a project, We like to know your current planing. </p>
                 </div>
                 <div class="wb-item p-8 rounded-2xl bg-amber-300 md:w-1/4">
-                    <img src="images/vision.png" alt="Image" class="mb-1">
-                    <h2 class="font-bold text-xl mb-2"> Concept </h2>
-                    <p> The barn house captivates with its blend of rustic charm and modern. </p>
+                    <img src="images/flow-chart.png" alt="Image" class="mb-1">
+                    <h2 class="font-bold text-xl mb-2"> Design Process </h2>
+                    <p class="text-gray-800"> We will adjust our design process according your planning. </p>
                 </div>
                 <div class="wb-item p-8 rounded-2xl bg-green-300 md:w-1/4">
                     <img src="images/vision.png" alt="Image" class="mb-1">
-                    <h2 class="font-bold text-xl mb-2"> Concept </h2>
-                    <p> The barn house captivates with its blend of rustic charm and modern. </p>
+                    <h2 class="font-bold text-xl mb-2"> Supervision </h2>
+                    <p class="text-gray-800"> Our core team will help you to make a good plan for your project. </p>
                 </div>
                 <div class="wb-item p-8 rounded-2xl bg-sky-300 md:w-1/4">
-                    <img src="images/vision.png" alt="Image" class="mb-1">
-                    <h2 class="font-bold text-xl mb-2"> Concept </h2>
-                    <p> The barn house captivates with its blend of rustic charm and modern. </p>
+                    <img src="images/budget-planning.png" alt="Image" class="mb-1">
+                    <h2 class="font-bold text-xl mb-2"> Budget Planning </h2>
+                    <p> We experienced team will customize our packages based on your budget.  </p>
                 </div>
             </div>
         </div>
@@ -114,37 +113,37 @@
         <div class="container w-4/5 mx-auto">
             <h1 class="px-8 mb-2 p-2 bg-green-200 rounded-3xl inline-block"> <i class="fa-solid fa-arrow-right mr-1"></i> Not Impressed Yet? </h1>
             <h1 class="font-bold text-5xl py-5"> Why Choose Us </h1>
-            <p class="mb-5"> You should know about our special feature before taking our service for your <br> first project. Here are some our speciality mentioned to know about us. </p>
+            <p class="mb-5 text-gray-600"> You should know about our special feature before taking our service for your <br> first project. Here are some our speciality mentioned to know about us. </p>
             <div class="choose-section grid grid-cols-3 gap-3 md:gap-6">
                 <div class="choose-item col-span-3 hover:opacity-60 transition-all p-6 shadow-md md:col-span-1">
                     <img src="images/img1.png" alt="Image" class="mx-auto rounded-full w-28 h-28 mb-2">
                     <h2 class="font-bold mb-1"> Strong Materials </h2>
-                    <p> We use reputed Materials for your project because of durability. So, you are fully safe. </p>
+                    <p class="text-gray-600"> We use reputed Materials for your project because of durability. So, you are fully safe. </p>
                 </div>
                 <div class="choose-item col-span-3 hover:opacity-60 transition-all p-6 shadow-md md:col-span-1">
-                    <img src="images/img1.png" alt="Image" class="mx-auto rounded-full w-28 h-28 mb-2">
-                    <h2 class="font-bold mb-1"> Strong Materials </h2>
-                    <p> We use reputed Materials for your project because of durability. So, you are fully safe. </p>
-                </div>
-                <div class="choose-item col-span-3 hover:opacity-60 transition-all p-6 shadow-m md:col-span-1">
-                    <img src="images/img1.png" alt="Image" class="mx-auto rounded-full w-28 h-28 mb-2">
-                    <h2 class="font-bold mb-1"> Strong Materials </h2>
-                    <p> We use reputed Materials for your project because of durability. So, you are fully safe. </p>
+                    <img src="images/img2.png" alt="Image" class="mx-auto rounded-full w-28 h-28 mb-2">
+                    <h2 class="font-bold mb-1"> Eco Friendly </h2>
+                    <p class="text-gray-600"> Ecological balanced is important to us. We have a experienced team that contains 50+ members. </p>
                 </div>
                 <div class="choose-item col-span-3 hover:opacity-60 transition-all p-6 shadow-md md:col-span-1">
-                    <img src="images/img1.png" alt="Image" class="mx-auto rounded-full w-28 h-28 mb-2">
-                    <h2 class="font-bold mb-1"> Strong Materials </h2>
-                    <p> We use reputed Materials for your project because of durability. So, you are fully safe. </p>
+                    <img src="images/img3.png" alt="Image" class="mx-auto rounded-full w-28 h-28 mb-2">
+                    <h2 class="font-bold mb-1"> Awesome Design </h2>
+                    <p class="text-gray-600"> Our design team works until your 100% satisfaction to make your home beautiful. </p>
                 </div>
                 <div class="choose-item col-span-3 hover:opacity-60 transition-all p-6 shadow-md md:col-span-1">
-                    <img src="images/img1.png" alt="Image" class="mx-auto rounded-full w-28 h-28 mb-2">
-                    <h2 class="font-bold mb-1"> Strong Materials </h2>
-                    <p> We use reputed Materials for your project because of durability. So, you are fully safe. </p>
+                    <img src="images/Rectangle.png" alt="Image" class="mx-auto rounded-full w-28 h-28 mb-2">
+                    <h2 class="font-bold mb-1"> Fully Decorated </h2>
+                    <p class="text-gray-600"> Our home decaration team you will help to select better furniture and gadgets. </p>
                 </div>
                 <div class="choose-item col-span-3 hover:opacity-60 transition-all p-6 shadow-md md:col-span-1">
-                    <img src="images/img1.png" alt="Image" class="mx-auto rounded-full w-28 h-28 mb-2">
-                    <h2 class="font-bold mb-1"> Strong Materials </h2>
-                    <p> We use reputed Materials for your project because of durability. So, you are fully safe. </p>
+                    <img src="images/img4.png" alt="Image" class="mx-auto rounded-full w-28 h-28 mb-2">
+                    <h2 class="font-bold mb-1"> Artificial Tree </h2>
+                    <p class="text-gray-600"> To make your home beautiful we provide free (Limited Numbers) Artificial trees . </p>
+                </div>
+                <div class="choose-item col-span-3 hover:opacity-60 transition-all p-6 shadow-md md:col-span-1">
+                    <img src="images/article1.png" alt="Image" class="mx-auto rounded-full w-28 h-28 mb-2">
+                    <h2 class="font-bold mb-1"> Electric Light </h2>
+                    <p class="text-gray-600"> We have built customized lighting system to make home looks good on night and evening. </p>
                 </div>
                 
             </div>
@@ -152,18 +151,18 @@
         </div>
     </section>
 
-    <section class="contact-form bg-[url('images/bg.jpg')] text-center py-20">
+    <section class="contact-form bg-[url('images/bg.jpg')] text-center bg- py-20">
         <div class="container w-4/5 mx-auto">
             <h1 class="px-8 mb-2 p-2 bg-green-200 rounded-3xl inline-block"> <i class="fa-solid fa-arrow-right mr-1"></i> Let's Connect </h1>
             <h1 class="font-bold text-5xl py-5"> Lets Discuss Next Project </h1>
-            <p class="mb-5"> The barn house captivates with its blend of rustic charm and modern sophistication, <br> featuring weathered wood, sleek metal accents. </p>
+            <p class="mb-5 text-gray-600 w-4/5 mx-auto"> Now, It is high time to contact with just and make a order of your beautiful home. Just fill up the form, Our marketing team will response it within 24 hours. You can also ask any question before starting a order. </p>
             <form action="#" class="grid gap-5 md:grid-cols-2">
                 <input type="text" placeholder="First Name*" class="col-span-2 rounded-3xl p-3 md:col-span-1" required>
                 <input type="text" placeholder="Last Name*" class="col-span-2 rounded-3xl p-3 md:col-span-1" required>
                 <input type="number" placeholder="Mobile Number*" class="col-span-2 rounded-3xl p-3 md:col-span-1" required>
                 <input type="email" placeholder="Email Address*" class="col-span-2 rounded-3xl p-3 md:col-span-1" required>
-                <textarea name="message" placeholder="Write Message Here" id="formmessage" class="col-span-2 rounded-3xl p-3"></textarea>
-                <input type="submit" value="Send Mail" class="bg-green-400 col-span-2 font-bold px-5 py-3 rounded-full">
+                <textarea name="message" placeholder="Write Message Here" id="formmessage" class="col-span-2 rounded-3xl p-3 h-40 md:h-52"></textarea>
+                <button class="bg-green-400 col-span-2 font-bold px-5 py-3 rounded-full"> Send Mail  <i class="fa-solid fa-arrow-up rotate-45 rounded-full px-2 py-1.5 bg-black text-white ml-1"></i> </button>
             </form>
         </div>
     </section>
@@ -172,13 +171,13 @@
         <div class="container w-4/5 mx-auto">
             <h1 class="px-8 mb-2 p-2 bg-green-200 rounded-3xl inline-block"> <i class="fa-solid fa-arrow-right mr-1"></i> Explore Our Latest Work </h1>
             <h1 class="font-bold text-5xl py-5"> Our Latest Portfolio </h1>
-            <p class="mb-5"> The barn house captivates with its blend of rustic charm and modern <br> sophistication, featuring weathered wood, sleek metal accents. </p>
+            <p class="mb-5 text-gray-600 mx-auto md:w-3/5">  We have already build 100+ beautiful project. Your design and works definitely impressed you. Here are some our work sample. It will help you to take your decision.  </p>
             <div class="row flex flex-col text-justify md:flex-row md:gap-5">
                 <div class="portfolio-item md:w-2/3 mb-5 flex flex-col md:flex-row gap-5 rounded-xl p-5 border border-solid border-slate-200">
                     <img src="images/img1.png" alt="Image" width="w-full">
                     <div class="portfolio-text">
                         <h2 class="font-bold text-xl mb-2"> Commerical </h2>
-                        <p class="mb-3"> The barn house captivates with its blend of rustic charm and modern. The barn house captivates with its blend of rustic charm and modern . </p>
+                        <p class="mb-3 text-gray-600"> TWe have already bulid 100 Commerical Home Project. Let's make your dream home with our experienced team and make your life happy! We are ready to make a beautiful home for you. </p>
                         <a href="#">  <span class="font-extrabold"> View Details </span> <i class="fa-solid fa-arrow-up rotate-45 bg-lime-400 rounded-full px-2 py-1.5 mr-1"></i> </a>
                     </div>
                 </div>
@@ -187,18 +186,18 @@
                 </div>
             </div>
             <div class="row flex flex-col md:flex-row md:gap-5 text-justify">
-                <div class="portfolio-item w-3/12 mb-5 col-span-1  flex md:gap-5 rounded-xl p-5 border-2 border-solid border-slate-200">
+                <div class="portfolio-item md:w-3/12 mb-5 flex md:gap-5 rounded-xl p-5 border-2 border-solid border-slate-200">
                     <img src="images/img3.png" alt="Image" class="w-full">
                 </div>
-                <div class="portfolio-item w-6/12 flex flex-col md:flex-row mb-5 md:gap-5 rounded-xl p-5 border-2 border-solid border-slate-200">
+                <div class="portfolio-item md:w-6/12 flex flex-col md:flex-row mb-5 md:gap-5 rounded-xl p-5 border-2 border-solid border-slate-200">
                     <img src="images/img4.png" alt="Image" class="mb-4 w-full">
                     <div class="portfolio-text">
-                        <h2 class="font-bold text-xl mb-2"> Commerical </h2>
-                        <p class="mb-3"> The barn house captivates with its blend of rustic charm and modern. The barn house captivates with its blend of rustic charm and modern . </p>
+                        <h2 class="font-bold text-xl mb-2"> Residencial </h2>
+                        <p class="mb-3 text-gray-600"> Ecological balanced is important to us. We have a experienced team that contains 50+ members. </p>
                         <a href="#">  <span class="font-extrabold"> View Details </span> <i class="fa-solid fa-arrow-up rotate-45 bg-lime-400 rounded-full px-2 py-1.5 mr-1"></i> </a>
                     </div>
                 </div>
-                <div class="portfolio-item w-3/12 mb-5 gap-1 rounded-xl p-5 border border-solid border-slate-200">
+                <div class="portfolio-item md:w-3/12 mb-5 gap-1 rounded-xl p-5 border border-solid border-slate-200">
                     <img src="images/img5.png" alt="Image" class="w-full">
                 </div>
                 <div class="md:hidden portfolio-item gap-1 rounded-xl p-5 border border-solid border-slate-200">
@@ -210,8 +209,9 @@
 
     <footer class="footer-section text-white bg-black text-center py-20">
         <div class="container w-4/5 mx-auto">
-           <h1 class="mb-4">  <i class="fa-solid fa-arrow-up rotate-45 bg-green-400 rounded-full px-2 py-1"></i> <span class="font-bold text-2xl"> Rinterio </span> </h1>
-            <p class="mb-10"> The barn house captivates with its blend of rustic charm <br> and modern sophistication, featuring weathered wood, sleek metal accents. </p>
+           <h1 class="mb-4">  <i class="fa-solid fa-arrow-up rotate-45 bg-green-400 text-black rounded-full px-2 py-1.5 mr-1"></i> <span class="font-bold text-2xl"> Rinterio </span> </h1>
+            <p class="mb-10 text-gray-600 md:w-3/5 mx-auto"> Rinterio is the best agency in Asia. Let's make your dream home with our experienced team and make your life happy! We are ready to make a beautiful home for you.
+            </p>
             <ul class="mb-10 flex flex-col justify-evenly md:flex-row">
                 <li><a href="#" class="py-2 block"> Home </a></li>
                 <li><a href="#" class="py-2 block"> Services </a></li>
